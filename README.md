@@ -31,6 +31,8 @@ A self-study Chrome Extension that allows quick keyword searches via customizabl
   → 태그로 검색엔진/키워드 분류
 - 🎨 UI/UX enhancements (Animations, Accessibility)  
   → 애니메이션, 접근성 등 UI 개선
+- ⌨️ Keyboard shortcut support  
+  → 단축키로 입력창 열기 등 빠른 실행 기능 추가
 
 ---
 
