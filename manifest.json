@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Chatbot Search Helper",
+  "version": "1.0",
+  "description": "Search via chatbot in a new tab.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["tutorial/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
