@@ -1,6 +1,7 @@
 🔍 QuickSearchEngine - 크롬 확장 프로그램
 
 A self-study Chrome Extension that allows quick keyword searches via customizable buttons.
+
 검색엔진 버튼을 커스터마이징하여 빠르게 새 탭 검색을 할 수 있는 셀프 스터디용 크롬 확장 프로젝트입니다.
 
 ---
