@@ -211,14 +211,13 @@ if (!document.getElementById("quick-search-launcher")) {
 
   const body = document.createElement("div");
 
-  // 설명 텍스트
   const info = document.createElement("p");
   info.textContent = "아래 슬라이드를 넘겨 검색 URL 입력법을 확인하세요:";
   Object.assign(info.style, {
     fontSize: "14px", marginBottom: "10px"
   });
 
-  // 슬라이드 구조
+  // 튜토리얼 가이드 이미지 슬라이드
   const guideImages = [1, 2, 3, 4, 5];
   let currentSlide = 0;
 

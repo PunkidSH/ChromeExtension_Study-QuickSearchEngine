@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Chatbot Search Helper",
+  "name": "Quick Search Tool",
   "version": "1.0",
   "description": "Search via chatbot in a new tab.",
   "action": {
